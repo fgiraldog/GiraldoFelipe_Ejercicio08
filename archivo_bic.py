@@ -120,7 +120,7 @@ for i in range(0,4):
 
 
 plt.subplots_adjust(hspace=0.6,wspace=0.3)
-plt.show()
+plt.savefig('model_a.png')
 
 plt.figure(figsize = (10,8))
 for i in range(0,4):
@@ -142,7 +142,7 @@ for i in range(0,4):
 
 
 plt.subplots_adjust(hspace=0.6,wspace=0.3)
-plt.show()
+plt.savefig('model_b.png')
 
 plt.figure(figsize = (10,8))
 for i in range(0,6):
@@ -163,4 +163,4 @@ for i in range(0,6):
 		plt.legend()
 
 plt.subplots_adjust(hspace=0.6,wspace=0.3)
-plt.show()
+plt.savefig('model_c.png')
